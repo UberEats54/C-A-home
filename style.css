@@ -1,0 +1,217 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container div {
+    flex: auto;
+}
+
+button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: hsl(225, 100%, 65%);
+    font-size: 1.1rem;
+    border: 2px solid hsl(225, 100%, 65%);
+    border-radius: 15px;
+    color: white;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    box-shadow: 0px 0px 5px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+/* Primeira secao */
+.section1 {
+    background-color: hsl(154, 67%, 40%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(150, 100%, 13%);
+    border-bottom: 2px solid white;
+}
+
+.icon {
+    height: 3rem;
+    width: 3.5rem;
+    margin-top: 0.2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1100px;
+    margin-left: 5vw;
+}
+
+.header p{
+    flex: auto;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header p:hover {
+    text-decoration: underline;
+}
+
+.header p:active {
+    color: gray;
+}
+
+.header p:nth-child(2) {
+    margin-left: 1rem;
+    background-color: hsl(150, 100%, 13%);
+    border: 2px solid white;
+    cursor: default;
+}
+
+.header p:nth-child(2):hover {
+    text-decoration: none;
+}
+
+.header p:nth-child(2):active {
+    color: white;
+}
+
+.header p:nth-child(3) {
+    margin-left: 50vw;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    width: 60vw;
+    margin-left: 20vw;
+    gap: 1rem;
+}
+
+.content div {
+    flex: auto;
+}
+
+.firstText {
+    color: white;
+    border-left: 10px solid green;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.content img {
+    width: 25rem;
+    border: 2px solid white;
+}
+
+/* Segunda secao */
+.section2 {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.section2 h3 {
+    display: inline-block;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.bundles {
+    display: flex;
+    gap: 2rem;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-bottom: 4rem;
+}
+
+.bundles div {
+    flex: auto;
+    width: 7rem;
+    height: 7rem;
+    border: 4px solid green;
+    background-color: lightgreen;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px hsla(0, 0%, 0%, 0.575);
+}
+
+.bundles .links {
+    color: green;
+    font-weight: bolder;
+}
+
+/* Terceira secao */
+.section3 {
+    background-color: lightgrey;
+    text-align: left;
+}
+
+.quote{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.section3 p:nth-child(2){
+    margin-left: 45rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+/* Quarta secao */
+.section4 {
+    background-color: aliceblue;
+}
+
+.section4 div {
+    background-color: hsl(225, 100%, 65%);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    padding: 0.1rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+}
+
+.section4 div button {
+    float: right;
+    border: 2px solid white;
+    margin-top: 2.2rem;
+    margin-right: 3rem;
+}
+
+.section4 div h4,
+.section4 div p {
+    color: white;
+    margin-left: 3rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: hsl(154, 67%, 40%);
+    color: white;
+}
